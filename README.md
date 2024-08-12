@@ -1,1 +1,2 @@
-# Module-4-assignment
+# Assignment-wp-book-plugin
+     Create a custom post type Book
