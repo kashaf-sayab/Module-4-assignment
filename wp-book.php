@@ -34,3 +34,6 @@ register_deactivation_hook( __FILE__, 'deactivate_wp_book' );
 require_once plugin_dir_path( __FILE__ ) . 'includes/post-category-tags.php';
 //meta box
 require_once plugin_dir_path( __FILE__ ) . 'includes/custom-meta-boxes.php';
+// meta-table
+require_once plugin_dir_path( __FILE__ ) . 'includes/db-table.php';
+
