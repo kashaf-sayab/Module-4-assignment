@@ -38,3 +38,5 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/custom-meta-boxes.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/db-table.php';
 // setting page
 require_once plugin_dir_path( __FILE__ ) . 'includes/setting-page.php';
+// add short code
+require_once plugin_dir_path( __FILE__ ) . 'includes/shortcode.php';
