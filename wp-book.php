@@ -36,4 +36,5 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/post-category-tags.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/custom-meta-boxes.php';
 // meta-table
 require_once plugin_dir_path( __FILE__ ) . 'includes/db-table.php';
-
+// setting page
+require_once plugin_dir_path( __FILE__ ) . 'includes/setting-page.php';
