@@ -43,8 +43,7 @@ function wpbk_register_book_post_type() {
         'has_archive'        => true, 
         'hierarchical'       => false, 
         'menu_position'      => null, 
-        'supports'           => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments'),
-		'taxonomies'         => array( 'category', 'post_tag' ), 
+        'supports'           => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments'), 
         'show_in_rest'       => true, 
     );
 

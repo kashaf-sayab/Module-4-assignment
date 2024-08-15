@@ -31,7 +31,8 @@ function deactivate_wp_book() {
 register_activation_hook( __FILE__, 'activate_wp_book' );
 register_deactivation_hook( __FILE__, 'deactivate_wp_book' );
 //cerated Post,category,tags
-require_once plugin_dir_path( __FILE__ ) . 'includes/post-category-tags.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/custom-post.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/custom-taxonomies.php';
 //meta box
 require_once plugin_dir_path( __FILE__ ) . 'includes/custom-meta-boxes.php';
 // meta-table
@@ -40,3 +41,9 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/db-table.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/setting-page.php';
 // add short code
 require_once plugin_dir_path( __FILE__ ) . 'includes/shortcode.php';
+
+// add widgets
+require_once plugin_dir_path( __FILE__ ) . 'includes/widgets.php';
+
+// add dashboard widgets
+require_once plugin_dir_path( __FILE__ ) . 'includes/dashboard-widget.php';

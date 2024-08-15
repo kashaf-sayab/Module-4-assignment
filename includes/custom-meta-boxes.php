@@ -24,19 +24,19 @@ function wp_book_meta_box_callback($post) {
 
     ?>
     <label for="wp_book_author_name">Author Name</label>
-    <input type="text" id="wp_book_author_name" name="wp_book_author_name" value="<?php echo esc_attr($author_name); ?>" size="25" />
+    <input type="text" id="wp_book_author_name" name="wp_book_author_name" value="<?php echo esc_attr($author_name); ?>" size="25" /><br>
 
     <label for="wp_book_price">Price</label>
-    <input type="text" id="wp_book_price" name="wp_book_price" value="<?php echo esc_attr($price); ?>" size="25" />
+    <input type="text" id="wp_book_price" name="wp_book_price" value="<?php echo esc_attr($price); ?>" size="25" /><br>
 
     <label for="wp_book_publisher">Publisher</label>
-    <input type="text" id="wp_book_publisher" name="wp_book_publisher" value="<?php echo esc_attr($publisher); ?>" size="25" />
+    <input type="text" id="wp_book_publisher" name="wp_book_publisher" value="<?php echo esc_attr($publisher); ?>" size="25" /><br>
 
     <label for="wp_book_year">Year</label>
-    <input type="text" id="wp_book_year" name="wp_book_year" value="<?php echo esc_attr($year); ?>" size="25" />
+    <input type="text" id="wp_book_year" name="wp_book_year" value="<?php echo esc_attr($year); ?>" size="25" /><br>
 
     <label for="wp_book_edition">Edition</label>
-    <input type="text" id="wp_book_edition" name="wp_book_edition" value="<?php echo esc_attr($edition); ?>" size="25" />
+    <input type="text" id="wp_book_edition" name="wp_book_edition" value="<?php echo esc_attr($edition); ?>" size="25" /><br>
 
     <label for="wp_book_url">URL</label>
     <input type="text" id="wp_book_url" name="wp_book_url" value="<?php echo esc_attr($url); ?>" size="25" />
