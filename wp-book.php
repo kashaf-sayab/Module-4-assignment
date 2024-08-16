@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name:       wp-plugin
+ * Plugin Name:       wp-book
  * Plugin URI:        https://wp.plugin.com
  * Description:       plugin for managing books 
  * Version:           1.0.0
@@ -11,7 +11,7 @@
  * License:           GPL v2 
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Update URI:        https://wp.plugin.com
- * Text Domain:       wp-plugin
+ * Text Domain:       wp-book
  * Domain Path:       /languages
  */
 if (!defined('ABSPATH')) {
